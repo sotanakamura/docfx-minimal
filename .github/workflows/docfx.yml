@@ -1,3 +1,6 @@
+name: Docfx
+run-name: Docfx Build and Deploy
+on: [push]
 jobs:
   publish-docs:
     runs-on: ubuntu-latest
@@ -10,10 +13,10 @@ jobs:
         dotnet-version: 7.x
 
     - run: dotnet tool update -g docfx
-    - run: docfx docfx_project/docfx.json
+    - run: docfx docs/docfx.json
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs/_site
