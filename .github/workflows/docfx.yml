@@ -2,7 +2,8 @@ name: Docfx
 run-name: Docfx Build and Deploy
 on: [push]
 permissions:
-  actions: write
+  contents: write
+  pages: write
 jobs:
   publish-docs:
     runs-on: ubuntu-latest
