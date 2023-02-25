@@ -13,7 +13,7 @@ jobs:
     - run: docfx docfx_project/docfx.json
 
     - name: Deploy
-      uses: docfx-minimal/master
+      uses: sotanakamura/docfx-minimal
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/_site
