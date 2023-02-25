@@ -20,7 +20,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "EJiZXINMiSPMHUeIqmYghakBXemCIRsNjFtSMAFwavc="
+          "hash": "AK2xbFYcYAbd0aVL7LRMQW8wY/5U2nJitX4uiDPVKT0="
         }
       },
       "version": ""
@@ -31,7 +31,17 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+          "hash": "pne9y8f5ifPWhb5atMwP2U52HiWjCU6Pna1A/8TMiBg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshot.png"
         }
       },
       "version": ""
@@ -42,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "yx530scV4VCnVZCPCjyDYOlkB+oFAkhCl2YEdeR+R5w="
+          "hash": "/uXJpPwDP57g1uYQZlcMzJ8XSDKSDSoGVJVOYGjCHho="
         }
       },
       "version": ""
@@ -53,7 +63,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "26gkccrz4bulFa5TDgPGGYSnO8DBoYI8llSnyzOuhgk="
+          "hash": "7h3I4+FO2dPoT95K0Yj92y6BL7F3/kvdV2Mjc/PxG+M="
         }
       },
       "version": ""

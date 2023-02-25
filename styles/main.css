@@ -61,3 +61,11 @@
 .toc > ul {
   text-align: left;
 }
+
+body {
+  font-size: 16px;
+}
+
+header {
+  background-color: #FFFFFF;
+}
