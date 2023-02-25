@@ -1,4 +1,4 @@
-- name: Articles
+- name: Install
   href: articles/
 - name: Api Documentation
   href: api/
